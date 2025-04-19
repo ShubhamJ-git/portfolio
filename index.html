@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============UNICONS====================-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--=============SWIPER CSS====================-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9.0.3/swiper-bundle.min.css">
+
+    <!--=============CSS====================-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>MyPortfolio</title>
+</head>
+<body>
+        <!--=============HEADER====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__name">Shubham</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li>
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav__link">
+                            <i class="uil uil-user nav__icon"></i>About
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="nav__link">
+                            <i class="uil uil-file-alt nav__icon"></i>Skills
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="nav__link">
+                            <i class="uil uil-scenery nav__icon"></i>Qualification
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#certification" class="nav__link">
+                            <i class="uil uil-award nav__icon"></i>Certification
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#footer" class="nav__link">
+                            <i class="uil uil-message nav__icon"></i>Contact
+                        </a>
+                    </li>
+                </ul>
+                <i class="uil uil-times nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+                    <!-- Theme change button -->
+                <i class="uil uil-moon dark-moon" id="theme-button"></i>
+
+                <div class="nav__option" id="nav-option">
+                    <i class="uil uil-apps"></i>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!--=============MAIN====================-->
+    <main class="main">
+
+        <!--==================== HOME ====================-->
+        <section class="section" id="home">
+            <div class="container">
+                <div class="home grid">
+                    <div class="home__social">
+                        <div class="grid">
+                            <a href="https://www.linkedin.com/in/shubham-janbandhu-a11b12160/" target="_blank" class="home__social-icon">
+                                <i class="uil uil-linkedin-alt"></i>
+                            </a>
+                            <a href="https://github.com/ShubhamJ-git" target="_blank" class="home__social-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </a>
+                        </div>
+                        <div class="home__img">
+                            <svg class="home__logo" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <mask id="mask0" mask-type="alpha">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                                    130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                                    97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                                    0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                </mask>
+                                <g mask="url(#mask0)">
+                                    <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                                    <image class="home__logo-img" x='12' y='18'  href="assets/img/logo.png"/>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                    <div class="home__data home__heading">
+                        <h1>Hi, I'am Shubham <span class="wave">👋</span> </h1>
+                        <h3 class="home__subtitle">Senior Software Developer</h3>
+                        <p class="home__description">Highly experienced software developer known for crafting exceptional web and mobile applications. With years of hands-on experience and a strong focus on delivering top-notch quality, I've built a reputation as a trusted expert in the software development arena.</p>
+                        <a href="#footer" class="button button--flex"> Contact Me <i class="uil uil-message button__icon"></i></a>
+                    </div>
+                </div>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-------------ABOUT------------->
+        <section class="section" id="about">
+            <h2 class="section__title">About me</h2>
+            <span class="section__subtitle">Introduction</span>
+
+            <div class="about__container container">
+                <p class="about__description">
+                    I'm a seasoned software developer with a strong track record in web and mobile app development. With 3 years of experience, including over 2 years specializing in OutSystems, I'm proficient in both frontend and backend development. I thrive on solving complex problems and translating innovative concepts into user-friendly solutions. Beyond code, I'm a tech enthusiast and open-source advocate, always eager to explore the latest trends. Let's collaborate to bring your digital ideas to life!
+                </p>
+            </div>
+
+            <div class="about__buttons">
+                <a download="" href="assets/pdf/resume.pdf" target="_blank" class="button button__flex">
+                    Download CV <i class="uil uil-import button__icon"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-------------SKILLS------------->
+        <section class="section" id="skills">
+            <h2 class="section__title">Skills</h2>
+            <span class="section__subtitle">Technical level</span>
+
+            <div class="skills__container container grid">
+
+                <!-------------SKILL 1------------->
+                <div class="skills__content skills__open">
+                    <div class="skills__header">
+                        <i class="uil uil-clouds skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Cloud</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid" >
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">OutSystems</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__outsystems"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------SKILL 2------------->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-brackets-curly skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Frontend Languages</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid" >
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">HTML</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__html"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">CSS</h3>
+                                <span class="skills_number">60%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__css"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">JavaScript</h3>
+                                <span class="skills_number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__js"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------SKILL 3------------->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-server-network skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Backend Language</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid" >
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">Java</h3>
+                                <span class="skills_number">80%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__java"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-------------SKILL 4------------->
+                <div class="skills__content skills__close">
+                    <div class="skills__header">
+                        <i class="uil uil-database-alt skills__icon"></i>
+                        <div>
+                            <h1 class="skills__title">Database</h1>
+                        </div>
+                        <i class="uil uil-angle-down skills__arrow"></i>
+                    </div>
+
+                    <div class="skills__list grid" >
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">MySQL</h3>
+                                <span class="skills_number">70%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__mysql"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__titles">
+                                <h3 class="skills__name">SQL Server</h3>
+                                <span class="skills_number">40%</span>
+                            </div>
+                            <div class="skills__bar">
+                                <span class="skills__percentage skills__sqlserver"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-------------QUALIFICATION------------->
+        <section class="qualification section" id="qualification">
+            <h2 class="section__title">Qualification</h2>
+            <span class="section__subtitle">My personal journey</span>
+
+            <div class="qualification__container container">
+                <div class="qualification__tabs">
+                    <div class="qualification__button button--flex qualification__active" data-target="#education">
+                        <i class="uil uil-graduation-cap qualification__icon"></i>
+                        Education
+                    </div>
+                    <div class="qualification__button button--flex" data-target="#work">
+                        <i class="uil uil-bag-alt qualification__icon"></i>
+                        Work
+                    </div>
+                </div>
+
+                <div class="qualification__sections">
+                    <div class="qualification__content">
+                        <!-------------QUALIFICATION CONTENT 1------------->
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <!-------------QUALIFICATION 1------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Electronics & Telecommunication Engineer</h3>
+                                    <span class="qualification__subtitle">RTMNU</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2014 - 2018
+                                    </div>
+                                </div>
+                            </div>
+
+                        <!-------------QUALIFICATION 2------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">12th Class</h3>
+                                    <span class="qualification__subtitle">Maharashtra State Board</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2013 - 2014
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-------------QUALIFICATION CONTENT 2------------->
+                        <div class="qualification__content" data-content id="work">
+                            <!-------------QUALIFICATION 1------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Senior Developer</h3>
+                                    <span class="qualification__subtitle">OMNEPRESENT TECHNOLOGIES</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        June 2021 - Present
+                                    </div>
+                                </div>
+                            </div>
+                        
+                        <!-------------QUALIFICATION 2------------->
+                        <div class="qualification__data">
+                            <div>
+                                <span class="qualification__rounder"></span>
+                                <span class="qualification__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="qualification__title">Intern</h3>
+                                <span class="qualification__subtitle">HEBEON TECHNOLOGIES</span>
+                                <div class="qualification__calendar">
+                                    <i class="uil uil-calendar-alt"></i>
+                                    Sep 2020 - Dec 2020
+                                </div>
+                            </div>
+                        </div>    
+
+                        <!-------------QUALIFICATION 3------------->
+                            <div class="qualification__data">
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Account Recievable Specialist</h3>
+                                    <span class="qualification__subtitle">Ascent Business Solution Pvt. Ltd.</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        July 2018 - Dec 2019
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--=============Certifications====================-->
+        <section class="section" id="certification">
+            <h2 class="section__title">Certifications</h2>
+            <span class="section__subtitle">Tags</span>
+
+            <div class="container grid">
+                <div class="certification__content">
+                    <img class="certification__web__logo" src="assets/img/WebAssociate.png" alt="web">
+                    <img class="certification__reactive__logo" src="assets/img/ReactiveAssociate.png" alt="reactive">
+                    <img class="certification__web__logo" src="assets/img/ODC.png" alt="ODC">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!--=============FOOTER====================-->
+    <footer class="footer" id="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid__footer">
+                <div>
+                    <h1 class="footer__title">Shubham</h1>
+                    <span class="footer__subtitle">Senior Developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">About me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="footer__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#qualification" class="footer__link">Qualification</a>
+                    </li>
+                </ul>
+                <ul class="footer__links">
+                    <li>
+                        <span class="footer__link">Connect with Me</span>
+                    </li>
+                    <li class="footer__social-link">
+                        <p class="footer__link">LinkedIn</p>
+                        <a href="https://www.linkedin.com/in/shubham-janbandhu-a11b12160/" target="_blank" class="footer__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <p class="footer__link">GitHub</p>
+                        <a href="https://github.com/ShubhamJ-git" target="_blank" class="footer__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <p class="footer__link">Outsystems</p>
+                        <a href="https://www.outsystems.com/profile/m4yt1bsoyk/overview" target="_blank" class="footer__social-icon">
+                            <img src="assets/img/Outsystems.png" class="footer__outsystems-logo"/>
+                        </a>  
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--=============SCROLL TOP====================-->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+        
+    <!--=============MAIN JS====================-->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
